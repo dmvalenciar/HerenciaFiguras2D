@@ -97,6 +97,15 @@ public class VentanaCuadrado extends JFrame {
 		});
 		btnCalcularPerimetro.setBounds(240, 158, 163, 29);
 		contentPane.add(btnCalcularPerimetro);
+		
+		JButton btnAtras = new JButton("Atras");
+		btnAtras.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				setVisible(false);
+			}
+		});
+		btnAtras.setBounds(147, 203, 146, 29);
+		contentPane.add(btnAtras);
 
 	}
 }
